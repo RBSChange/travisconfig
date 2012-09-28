@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="4.0.0">
+  <!--Packages : framework-->
+  <package name="framework" version="4.0.0"/>
+  <!--Packages : libs-->
+  <package type="libs" name="fckeditor" version="2.6.3"/>
+  <package type="libs" name="icons" version="3.5"/>
+  <package type="libs" name="phptal" version="1.2.2"/>
+  <package type="libs" name="smarty" version="2.6"/>
+  <package type="libs" name="zfminimal" version="1.11.10"/>
+  <!--Packages : modules-->
+  <package type="modules" name="brand" version="4.0.0"/>
+  <package type="modules" name="catalog" version="4.0.0"/>
+  <package type="modules" name="comment" version="4.0.0"/>
+  <package type="modules" name="contactcard" version="4.0.0"/>
+  <package type="modules" name="customer" version="4.0.0"/>
+  <package type="modules" name="dashboard" version="4.0.0"/>
+  <package type="modules" name="filter" version="4.0.0"/>
+  <package type="modules" name="form" version="4.0.0"/>
+  <package type="modules" name="generic" version="4.0.0"/>
+  <package type="modules" name="i18n" version="4.0.0"/>  
+  <package type="modules" name="list" version="4.0.0"/>
+  <package type="modules" name="markergas" version="4.0.0"/>    
+  <package type="modules" name="media" version="4.0.0"/>
+  <package type="modules" name="mysqlindexer" version="4.0.0"/>
+  <package type="modules" name="notification" version="4.0.0"/>
+  <package type="modules" name="order" version="4.0.0"/>
+  <package type="modules" name="payment" version="4.0.0"/>  
+  <package type="modules" name="preferences" version="4.0.0"/>
+  <package type="modules" name="richtext" version="4.0.0"/>  
+  <package type="modules" name="rss" version="4.0.0"/>  
+  <package type="modules" name="seo" version="4.0.0"/>
+  <package type="modules" name="shipping" version="4.0.0"/>
+  <package type="modules" name="skin" version="4.0.0"/>  
+  <package type="modules" name="solrsearch" version="4.0.0"/>  
+  <package type="modules" name="task" version="4.0.0"/>
+  <package type="modules" name="theme" version="4.0.0"/>  
+  <package type="modules" name="uixul" version="4.0.0"/>
+  <package type="modules" name="useractionlogger" version="4.0.0"/>
+  <package type="modules" name="users" version="4.0.0"/>          
+  <package type="modules" name="videos" version="4.0.0"/>  
+  <package type="modules" name="website" version="4.0.0"/>
+  <package type="modules" name="workflow" version="4.0.0"/>
+  <package type="modules" name="zone" version="4.0.0"/>  
+  
+  <package type="modules" name="compatibility" version="4.0.0"/>
+  <package type="modules" name="videos" version="4.0.0"/>
+  
+  <!--   
+  <package type="modules" name="ads" version="4.0.0"/>
+  <package type="modules" name="atosserver" version="4.0.0"/>
+  <package type="modules" name="blog" version="4.0.0"/>
+  <package type="modules" name="bookmarks" version="4.0.0"/>
+  <package type="modules" name="clustersafe" version="4.0.0"/>
+  <package type="modules" name="clusterscale" version="4.0.0"/>
+  <package type="modules" name="dashstat" version="4.0.0"/>
+  <package type="modules" name="download" version="4.0.0"/>  
+  <package type="modules" name="ecomextended" version="4.0.0"/>
+  <package type="modules" name="ecomwebservices" version="4.0.0"/>
+  <package type="modules" name="emailing" version="4.0.0"/>
+  <package type="modules" name="event" version="4.0.0"/>
+  <package type="modules" name="faq" version="4.0.0"/>
+  <package type="modules" name="forums" version="4.0.0"/>
+  <package type="modules" name="googleshopping" version="4.0.0"/>
+  <package type="modules" name="inquiry" version="4.0.0"/>
+  <package type="modules" name="joboffer" version="4.0.0"/>
+  <package type="modules" name="lexicon" version="4.0.0"/>
+  <package type="modules" name="loyalty" version="4.0.0"/>
+  <package type="modules" name="mapping" version="4.0.0"/>
+  <package type="modules" name="markergmaps" version="4.0.0"/>
+  <package type="modules" name="marketing" version="4.0.0"/>
+  <package type="modules" name="microformat" version="4.0.0" />  
+  <package type="modules" name="mysqlstock" version="4.0.0"/>
+  <package type="modules" name="photoalbum" version="4.0.0"/>
+  <package type="modules" name="polls" version="4.0.0"/>
+  <package type="modules" name="privatemessaging" version="4.0.0"/>
+  <package type="modules" name="privatesales" version="4.0.0"/>
+  <package type="modules" name="productexporter" version="4.0.0"/>
+  <package type="modules" name="productreturns" version="4.0.0"/>
+  <package type="modules" name="productupdater" version="4.0.0"/>
+  <package type="modules" name="sharethis" version="4.0.0"/>
+  <package type="modules" name="support" version="4.0.0"/>
+  <package type="modules" name="survey" version="4.0.0"/>
+  <package type="modules" name="synchronizer" version="4.0.0"/>
+  <package type="modules" name="twitterconnect" version="4.0.0"/>
+  <package type="modules" name="webservices" version="4.0.0"/>
+
+
+
+  
+   -->
+
+  <!--Packages : themes-->
+  <package type="themes" name="default" version="4.0.0"/>
+  <package type="themes" name="developer" version="4.0.0"/>
+</install>

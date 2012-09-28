@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <defines>
+    <define name="AG_WEBAPP_NAME">RBS Change version 4 - alpha</define>
+    <define name="AG_SUPPORTED_LANGUAGES">fr en</define>
+    <define name="AG_UI_SUPPORTED_LANGUAGES">fr en</define>
+    <define name="CHANGE_USE_WORKFLOW">true</define>
+    <define name="AG_DISABLE_BLOCK_CACHE">false</define>
+    <define name="AG_DISABLE_SIMPLECACHE">false</define>
+    <define name="CHANGE_COMMAND">change.php</define>
+  </defines>
+  <config>
+    <databases>
+      <connections>
+        <entry name="default">webapp</entry>
+      </connections>
+    </databases>
+    <modules>
+      <media>
+        <secureMediaStrategyClass>
+          <entry name="default">media_DisplaySecuremediaDefaultStrategy</entry>
+        </secureMediaStrategyClass>
+      </media>
+      <useractionlogger>
+        <entry name="maxDaysHistory">30</entry>
+      </useractionlogger>
+    </modules>
+    <injection>
+      <class>
+        <entry name="indexer_IndexService">mysqlindexer_IndexService</entry>
+        <entry name="UserActionLoggerService">useractionlogger_LoggerService</entry>
+      </class>
+    </injection>
+    <tal>
+      <prefix>
+        <entry name="alternateclass">website_TalesAlternateClass</entry>
+        <entry name="url">website_TalesUrl</entry>
+        <entry name="tagurl">website_TalesUrl</entry>
+        <entry name="actionurl">website_TalesUrl</entry>
+        <entry name="currenturl">website_TalesUrl</entry>
+      </prefix>
+    </tal>
+  </config>
+</project>
