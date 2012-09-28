@@ -1,0 +1,16 @@
+{
+	"name": "rbschange/travisconfig",
+	"description": "Travis CI config",
+	"type": "rbschange-core",
+	"license":"AGPL-3.0",
+	"require": {
+		"composer/installers": "dev-rbschange"
+	},
+	"repositories": 
+	[
+		{
+			"type": "vcs",
+			"url": "http://github.com/franckstauffer/installers"
+		}
+	]
+}
