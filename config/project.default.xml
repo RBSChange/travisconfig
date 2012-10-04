@@ -13,13 +13,13 @@
 	    </general>
 		<databases>
 		  <!-- edit -->
-			<webapp>
+			<default>
 				<entry name="host">127.0.0.1</entry>
 				<entry name="user">root</entry>
 				<entry name="password"></entry>
 				<entry name="database">rbschangetest</entry>
 				<entry name="port">3306</entry>
-			</webapp>
+			</default>
 		</databases>
 		<mail>
 			<entry name="type">file</entry>
