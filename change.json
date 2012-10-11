@@ -1,0 +1,8 @@
+{
+	"TMP_PATH": "/tmp",
+	"DEFAULT_HOST": "alpha.rbschange.fr",
+	"PROJECT_ID": "rbschangev4alpha",
+	"PHP_CLI_PATH": "php",
+	"DEVELOPMENT_MODE": true,
+	"DOCUMENT_ROOT":"<current_dir>/www"
+}
