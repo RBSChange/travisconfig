@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 cp travisconfig/profile profile
+cp travisconfig/change.properties change.properties
 mkdir -p App/Config
 mkdir -p ChangeTests/UnitTestWorkspace/App/Config
 cp travisconfig/config/project.json App/Config/project.json
