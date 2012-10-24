@@ -1,0 +1,30 @@
+{
+	"defines":{
+		"LOGGING_LEVEL":"WARN",
+		"CHANGECRON_EXECUTION":"console",
+		"PROJECT_ID":"travisci",
+		"FAKE_EMAIL":"noreply@rbschange.fr"
+	},
+	"config":{
+		"general":{
+			"server-fqdn":"127.0.0.1"
+		},
+		"databases":{
+			"default":{
+				"host":"127.0.0.1",
+				"user":"root",
+				"password":"",
+				"database":"rbschangetest",
+				"port":3306
+			}
+		},
+		"mail":{
+			"type":"file"
+		},
+		"modules":{
+			"notification":{
+				"noreplySender":"noreply@rbschange.fr"
+			}
+		}
+	}
+}

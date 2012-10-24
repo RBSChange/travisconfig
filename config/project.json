@@ -1,0 +1,43 @@
+{
+	"defines":{
+		"AG_WEBAPP_NAME":"RBS Change version 4 - alpha",
+		"AG_SUPPORTED_LANGUAGES":"fr en",
+		"AG_UI_SUPPORTED_LANGUAGES":"fr en",
+		"CHANGE_USE_WORKFLOW":true,
+		"AG_DISABLE_BLOCK_CACHE":false,
+		"AG_DISABLE_SIMPLECACHE":false,
+		"CHANGE_COMMAND":"change.php"
+	},
+	"config":{
+		"databases":{
+			"connections":{
+				"default":"webapp"
+			}
+		},
+		"modules":{
+			"media":{
+				"secureMediaStrategyClass":{
+					"default":"media_DisplaySecuremediaDefaultStrategy"
+				}
+			},
+			"useractionlogger":{
+				"maxDaysHistory":30
+			}
+		},
+		"injection":{
+			"class":{
+				"indexer_IndexService":"mysqlindexer_IndexService",
+				"UserActionLoggerService":"useractionlogger_LoggerService"
+			}
+		},
+		"tal":{
+			"prefix":{
+				"alternateclass":"website_TalesAlternateClass",
+				"url":"website_TalesUrl",
+				"tagurl":"website_TalesUrl",
+				"actionurl":"website_TalesUrl",
+				"currenturl":"website_TalesUrl"
+			}
+		}
+	}
+}
