@@ -3,7 +3,12 @@
 		"LOGGING_LEVEL":"WARN",
 		"CHANGECRON_EXECUTION":"console",
 		"PROJECT_ID":"travisci",
-		"FAKE_EMAIL":"noreply@rbschange.fr"
+		"FAKE_EMAIL":"noreply@rbschange.fr",
+		"DEFAULT_HOST": "change.lowcoders.net",
+		"PHP_CLI_PATH": "php",
+		"DEVELOPMENT_MODE": true,
+		"DOCUMENT_ROOT":"<current_dir>",
+		"TMP_PATH": "/tmp"
 	},
 	"config":{
 		"general":{
