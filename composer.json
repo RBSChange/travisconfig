@@ -10,7 +10,7 @@
 	[
 		{
 			"type": "vcs",
-			"url": "http://github.com/franckstauffer/installers"
+			"url": "git://github.com/RBSChange/installers.git"
 		}
 	]
 }

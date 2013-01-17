@@ -26,7 +26,6 @@
 		},
 		"injection":{
 			"class":{
-				"indexer_IndexService":"mysqlindexer_IndexService",
 				"UserActionLoggerService":"useractionlogger_LoggerService"
 			}
 		},

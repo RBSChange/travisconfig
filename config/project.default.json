@@ -4,7 +4,7 @@
 		"CHANGECRON_EXECUTION":"console",
 		"PROJECT_ID":"travisci",
 		"FAKE_EMAIL":"noreply@rbschange.fr",
-		"DEFAULT_HOST": "change.lowcoders.net",
+		"DEFAULT_HOST": "change4.rbschange.net",
 		"PHP_CLI_PATH": "php",
 		"DEVELOPMENT_MODE": true,
 		"DOCUMENT_ROOT":"<current_dir>",
