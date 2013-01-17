@@ -5,7 +5,7 @@
 		"FAKE_EMAIL":"noreply@rbschange.fr",
 		"DEFAULT_HOST": "change4.rbschange.net",
 		"PHP_CLI_PATH": "php",
-		"DOCUMENT_ROOT":"<current_dir>",
+		"DOCUMENT_ROOT":"<current_dir>"
 	},
 	"config":{
 		"general":{
