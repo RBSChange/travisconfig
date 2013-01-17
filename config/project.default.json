@@ -1,17 +1,15 @@
 {
 	"defines":{
 		"LOGGING_LEVEL":"WARN",
-		"CHANGECRON_EXECUTION":"console",
 		"PROJECT_ID":"travisci",
 		"FAKE_EMAIL":"noreply@rbschange.fr",
 		"DEFAULT_HOST": "change4.rbschange.net",
 		"PHP_CLI_PATH": "php",
-		"DEVELOPMENT_MODE": true,
 		"DOCUMENT_ROOT":"<current_dir>",
-		"TMP_PATH": "/tmp"
 	},
 	"config":{
 		"general":{
+			"projectName":"RBS Change version 4 - alpha",
 			"server-fqdn":"127.0.0.1"
 		},
 		"databases":{
