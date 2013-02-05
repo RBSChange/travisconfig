@@ -1,8 +1,2 @@
 {
-	"defines":{
-		"CHANGECRON_EXECUTION":"console",
-		"DEVELOPMENT_MODE": true,
-		"TMP_PATH": "/tmp",
-		"CHANGE_COMMAND":"php bin/change.phar"
-	}
 }
